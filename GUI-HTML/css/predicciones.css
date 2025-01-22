@@ -1,0 +1,79 @@
+#search {
+    margin-bottom: 10px;
+  }
+
+  #galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .image-container {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .image-container p {
+    margin: 5px 0;
+  }
+
+  /* Estilo para los enlaces */
+  .image-container a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .dorado {
+    border-color: gold !important;
+  }
+
+  #botonPrediccion{
+    display: none; /* Hace que el botón sea un bloque */
+    width: 300px; /* Ancho fijo */
+    margin: 0 auto; /* Margen automático horizontal para centrar */
+  }
+
+.navbar-brand{
+    cursor: pointer;
+}
+
+
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: none; /* Inicialmente oculto */
+  justify-content: center;
+  align-items: center;
+}
+
+#loader p {
+  color: white;
+  font-size: 20px;
+}
+
+.navPrincipales a {
+  color: white; /* Color inicial (blanco) */
+  text-decoration: none; /* Eliminar subrayado de los enlaces */
+}
+
+/* Estilo para los enlaces activos (con letra dorada) */
+.navPrincipales a.active {
+  color: gold; /* Cambiar color a dorado para enlaces activos */
+}

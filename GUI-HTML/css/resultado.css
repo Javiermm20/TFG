@@ -1,0 +1,41 @@
+.sidebar {
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center; /* Centrar el contenido de la barra lateral */
+}
+
+.sidebar img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+#textoImagen {
+    margin-bottom: 0; /* Eliminar el margen inferior del texto */
+}
+
+#tablaListarResultado th,
+#tablaListarResultado td {
+    text-align: center;
+}
+
+.navbar-brand{
+    cursor: pointer;
+}
+
+
+section.container {
+    overflow-y: auto; /* Permitir scroll vertical cuando sea necesario */
+    max-height: 95vh; /* Altura máxima del contenedor principal (ajustar según sea necesario) */
+    overflow-x: hidden;
+}
+
+.navPrincipales a {
+    color: white; /* Color inicial (blanco) */
+    text-decoration: none; /* Eliminar subrayado de los enlaces */
+  }
+  
+  /* Estilo para los enlaces activos (con letra dorada) */
+  .navPrincipales a.active {
+    color: gold; /* Cambiar color a dorado para enlaces activos */
+  }

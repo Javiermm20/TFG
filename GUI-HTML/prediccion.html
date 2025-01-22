@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestión de moléculas</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="../css/gestion.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/predicciones.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="../gestion.html">
+          <img src="../imagenesFondo/iconoMolecula.png" class="d-inline-block"  id="logo">
+          Moléculas
+        </a>
+        <span class="navPrincipales">
+            <a href="gestion.html">Gestión</a>
+            <a href="prediccion.html">Predicción</a>
+            <a href="resultado.html">Resultados</a>
+        </span>
+        <a class="navbar-brand" onclick="salir()">
+            Salir
+        </a>
+    </nav>
+    <div id="loader">
+        <p>Cargando...</p>
+    </div>
+    <section class="container">
+        <div class="input">
+            <i class="fa fa-user icono"></i>
+            <input type="text" class="form-control" id="search" placeholder="BUSCAR">
+        
+        </div>
+        <div id="galeria"></div>
+        <button type="button" id="botonPrediccion" class="btn btn-lg btn-primary">Hacer predicción</button>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/funciones.js"></script>
+    <script src="../js/prediccion.js"></script> 
+</body>
+</html>
